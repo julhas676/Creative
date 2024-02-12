@@ -1,0 +1,725 @@
+/*==================== Common CSS Start ====================*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/*==================== Common CSS End ====================*/
+
+
+/*==================== NavBar Section Start ====================*/
+#navBar {
+  width: 100%;
+  height: 168px;
+}
+
+.Nav_row {
+  display: flex;
+}
+
+.Nav_row .logoPart {
+  width: 20%;
+  height: 168px;
+}
+
+.logoPart img {
+  width: 115px;
+  height: 83px;
+  margin-top: 34px;
+}
+
+.Nav_row .navPart {
+  width: 80%;
+  height: 168px;
+}
+
+.Nav_row .navPart ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Nav_row .navPart ul li a {
+  color: #181818;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: inter;
+  line-height: 22px;
+  margin-top: 64px;
+}
+
+.Nav_row .navPart ul li a:hover {
+  color: #5956E8;
+}
+
+.Nav_row .buttomPart {
+  width: 20%;
+  height: 168px;
+
+}
+
+
+.Nav_row .buttomPart .btn a {
+  margin-top: 60px;
+  padding: 13px 24px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #5956E8;
+  border-radius: 10px;
+  color: #fff;
+}
+
+/*==================== NavBar Section End ====================*/
+
+
+/*==================== Banner Section Start ====================*/
+#banner {
+  width: 100%;
+  height: 900px;
+  background-color: #5956E8;
+}
+
+.Banner_row {
+  display: flex;
+}
+
+.Banner_row .banner_left {
+  width: 50%;
+  height: 900px;
+}
+
+.Banner_row .banner_left .banner_text {
+  width: 501px;
+  height: 240px;
+  margin-top: 220px;
+}
+
+.Banner_row .banner_left .banner_text h1 {
+  font-size: 65px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.Banner_row .banner_left .banner_text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 25px;
+}
+
+.Banner_row .banner_left .banner_text .btn {
+  width: 144px;
+  height: 48px;
+  margin-top: 30px;
+}
+
+.Banner_row .banner_left .banner_text .btn a {
+  padding: 13px 22px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #5956E8;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.Banner_row .banner_right {
+  width: 50%;
+  height: 900px;
+}
+
+.Banner_row .banner_right .banner_img img {
+  width: 350px;
+  height: 425px;
+  margin-top: 165px;
+  margin-left: 80px;
+}
+
+/*==================== Banner Section End ====================*/
+
+
+
+/*==================== Service Section Start ====================*/
+
+.service_row .service_heading {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 50px;
+}
+
+.service_row .service_heading h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.service_row .service_heading p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  width: 542px;
+  margin: 0 auto;
+  margin-top: 20px;
+
+}
+
+.service_row .all_service .service_item {
+  width: 280px;
+  height: 350px;
+  position: relative;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: 1px solid #E3E3E3;
+}
+
+.service_row .all_service .service_item .item_text {
+  padding-top: 164px;
+  margin-left: 28px;
+  margin-right: 48px;
+}
+
+.service_row .all_service .service_item .item_text p {
+  width: 254px;
+  margin-top: 20px;
+  line-height: 27px;
+  color: #181818B2;
+  font-size: 14px;
+}
+
+.service_row .all_service .service_item .item_icon {
+  width: 71px;
+  height: 71px;
+  border: 1px solid #5956E8;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  position: absolute;
+  top: 63px;
+  left: 48px;
+}
+
+.service_row .all_service .service_item .item_icon:hover {
+  background-color: #5956E8;
+}
+
+.service_row .all_service .service_item .item_icon i {
+  font-size: 37px;
+  padding-left: 10px;
+  padding-top: 15px;
+  color: #5956E8;
+
+}
+
+.service_row .all_service .service_item .item_icon i:hover {
+  color: #fff;
+  /* background-color: #5956E8; */
+}
+
+.all_service {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.all_service .service_item {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.all_service .service_item:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+/*==================== Service Section End ====================*/
+
+/*==================== Protfolio Section Start ====================*/
+
+.protfolio_row .protfolio_heading {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 50px;
+}
+
+.protfolio_row .protfolio_heading h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.protfolio_row .protfolio_heading p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  width: 542px;
+  margin: 0 auto;
+  margin-top: 20px;
+
+}
+
+.protfolio_row .protfolio_work {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+
+.protfolio_row .protfolio_work .protfolio_item {
+  max-width: 200px;
+  position: relative;
+  overflow: hidden;
+  margin-left: 20px;
+  margin-bottom: 30px;
+
+
+}
+
+.protfolio_work .protfolio_item .protfolio_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.protfolio_item .overly {
+  font-family: 'inter', sans-serif;
+  background-color: #5956E8;
+  width: 80%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  position: absolute;
+  bottom: -126px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+.protfolio_item:hover .overly {
+  bottom: 19px;
+}
+
+.protfolio_item .overly .overly_text {
+  /* padding: 25px 10px; */
+  padding: 25px 5px;
+  text-align: center;
+  color: #fff;
+
+}
+
+.protfolio_item .overly .overly_text h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.protfolio_item .overly .overly_text p {
+  padding-top: 10px;
+}
+
+
+/*==================== Protfolio Section End ====================*/
+
+/* ================== Team Member Section Start ==================== */
+
+#teamMember .teamTop {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.teamTop h2 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'inter', sans-serif;
+}
+
+.teamTop p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'inter', sans-serif;
+  width: 542px;
+  padding: 20px 0 50px;
+}
+
+#teamMember .member{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.memberItem {
+  width: 305px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.teamPhoto img {
+  object-fit: cover;
+}
+
+.teamOverly {
+  background: linear-gradient(360deg, rgba(89, 86, 232, 0.521) 9%, rgba(255, 255, 255, 0.055) 100%);
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: ease-in .5s;
+  -webkit-transition: ease-in .5s;
+  -moz-transition: ease-in .5s;
+  -ms-transition: ease-in .5s;
+  -o-transition: ease-in .5s;
+}
+
+.memberItem:hover .teamOverly {
+  top: 0;
+}
+
+.teamOverlyText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-end;
+  padding-bottom: 34px;
+
+}
+
+.teamOverlyText__overlyName {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.teamOverlyText__overlytitle {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* ================== Team Member Section End ==================== */
+
+/* ================== Experience Member Section Start ==================== */
+
+#Experience{
+  width: 100%;
+}
+
+.ex_review{
+  display: flex;
+  justify-content: space-between;
+}
+.extop {
+  margin-top: 142px;
+  margin-bottom: 50px;
+}
+.extop h2{
+  font-size: 40px;
+  font-weight: 700;
+  color: #181818;
+  width: 603px;
+}
+
+.extop p{
+  font-size: 16px;
+  font-weight: 400;
+  width: 542px;
+  padding-top: 20px;
+}
+
+.ex_item{
+  width: 300px;
+  height: 425px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.ex_photo{
+  width: 83px;
+  height: 83px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  object-fit: cover;
+margin: 48px 0 0 48px;
+}
+
+.ex_item .item_text{
+  margin-top: 30px;
+  width: 274px;
+  padding-left: 48px;
+}
+
+.item_icon{
+  padding-bottom: 20px;
+  color: goldenrod;
+}
+
+.ex_item_para{
+  padding-bottom: 15px;
+  font-size: 16px;
+  font-weight: 400;
+color: #181818B2;
+
+}
+
+              
+.item_text .name{
+  font-size: 20px;
+  font-weight: 600;
+}
+            
+.item_text .title{
+ font-size: 16px;
+ font-weight: 400;
+
+}
+/* ================== Experience Member Section End ==================== */
+
+/* ================== News Member Section Start ==================== */
+
+#news{
+  width: 100%;
+}
+
+.news_top{
+  margin-top: 122px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+
+
+}
+
+.news_top h2{
+  width: 325px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.news_top p{
+  width: 542px;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+.news_item{
+  width: 280px;
+  height: 490px;
+  border: 1px solid #E3E3E3;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-left: 20px;
+  margin-bottom: 100px;
+}
+
+.news_item_pic{
+  width: 250px;
+  height: 180px;
+  margin-left: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.topText{
+  display: flex;
+  padding-top: 19px;
+  color: #5D5D5D;
+}
+
+.topText .admin{
+  margin-left: 35px;
+  display: flex;
+}
+
+.topText .admin p{
+  margin-left: 10px;
+}
+
+.topText .date{
+  margin-left: 35px;
+  display: flex;
+}
+
+.topText .date p{
+  margin-left: 10px;
+}
+
+
+.news_contant{
+  padding: 10px 35px;
+
+}
+.news_contant h2{
+  width: 271px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #181818;
+  padding-bottom: 15px;
+}
+
+.news_contant p{
+  line-height: 27px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #5D5D5D;
+  padding-bottom: 10px;
+}
+
+.news_contant a{
+  color: #5956E8;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.news_post{
+  display: flex;
+  
+}
+/* ================== News Member Section End ==================== */
+
+/* ================== Footer Section Start ==================== */
+#footer{
+  width: 100%;
+  background-color: #eeeefd;
+}
+.main_footer{
+  width: 100%;
+  height: 440px;
+ display: flex;
+}
+
+.footer_logo{
+  width: 300px;
+  margin-top: 100px;
+}
+
+.footer_logo_text{
+  margin-top: 15px;
+}
+
+.footer_logo_text p{
+  color: #5D5D5D;
+}
+
+.social_icon {
+  margin-top: 20px;
+}
+
+.facebook_icon{
+  padding-top: 20px;
+  width: 42px;
+  height: 42px;
+  background-color: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  padding-left: 15px;
+  color: #2c29ff;
+}
+
+.x_icon{
+  padding-top: 20px;
+  width: 42px;
+  height: 42px;
+  background-color: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+
+.footer_right{
+  width: 300px;
+  margin-top: 100px;
+
+  display: flex;
+}
+
+.footer_list{
+  margin-top: 15px;
+
+}
+
+.footer_item{
+  margin-left: 80px;
+}
+
+.footer_list li{
+  line-height: 35px;
+  font-size: 15px;
+
+}
+/* ================== Footer Section End ==================== */
+
